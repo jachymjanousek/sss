@@ -1,4 +1,4 @@
-# Woltair Super Shell – WSS
+# Super Simple Shell – SSS
 
 Set of aliases and functions to automate repetetive actions.
 
