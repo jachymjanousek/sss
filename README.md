@@ -32,5 +32,5 @@ cd ~
 git clone git@github.com:jachymjanousek/sss.git .sss
 
 # add source to .zshrc
-echo "source $HOME/.sss/zshrc.sh" >> "$HOME/.zshrc"
+echo "source \$HOME/.sss/zshrc.sh" >> "$HOME/.zshrc"
 ```
