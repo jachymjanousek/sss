@@ -15,7 +15,7 @@
 # If you have any suggestions, please let me know.
 
 # DISCLAIMER:
-# whole WSS is dependent on oh-my-zsh git plugin and git aliases
+# whole SSS is dependent on oh-my-zsh git plugin and git aliases
 # if you don't use oh-my-zsh, you should.
 # if you don't use git aliases, you should.
 # if you don't use git, you should.
@@ -24,7 +24,7 @@
 # if you don't use computer, you should.
 # (sorry, not sorry)
 
-# for conf in "$HOME/.config/zsh/wss/"*.zsh; do
+# for conf in "$HOME/.config/zsh/SSS/"*.zsh; do
 #   source "${conf}"
 # done
 # unset conf

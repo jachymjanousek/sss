@@ -79,10 +79,10 @@ function tempbranch() {
 	if [ "$1" != "" ]; then
 		target_branch=$1
 	else
-		echo "[WSS]: No target branch specified"
+		echo "[SSS]: No target branch specified"
 		kill -INT $$
 	fi
-	echo "[WSS]: Target branch: $target"
+	echo "[SSS]: Target branch: $target"
 
 	# custom suffix from second argument or default to target branch
 	suffix=$target_branch
@@ -95,10 +95,10 @@ function tempbranch() {
 	if [ "$3" != "" ]; then
 		source_branch=$3
 	fi
-	echo "[WSS]: Source branch: $source_branch"
+	echo "[SSS]: Source branch: $source_branch"
 
 	branch_name="$source_branch-$suffix"
-	echo "[WSS]: Creating temp branch: $branch_name"
+	echo "[SSS]: Creating temp branch: $branch_name"
 
 	# pull source branch and create temp branch
 	gco $source_branch
