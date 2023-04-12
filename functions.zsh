@@ -18,7 +18,7 @@ function gitlog() {
 
 
 
-# Print all open ports with prefix index
+# Print all open ports with prefix index, prompt user to select one and kill it
 #
 # usage: killports
 function killports() {
